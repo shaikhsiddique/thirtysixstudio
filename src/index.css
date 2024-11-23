@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    /* background-color: #fd2c2a; */
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+}
+
+canvas{
+    pointer-events: none;
+}
