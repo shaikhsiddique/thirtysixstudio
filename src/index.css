@@ -4,11 +4,12 @@
 
 body{
     /* background-color: #fd2c2a; */
-    background-color: black;
-    color: white;
+    background-color: #FFFAFA;
+    color: black;
     overflow-y: hidden;
 }
 
 canvas{
     pointer-events: none;
 }
+

@@ -1,0 +1,40 @@
+.circular-text-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circular-text {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotateCircle 10s linear infinite;
+  }
+  
+  .circular-text span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;  
+    font-size: 15px; 
+    font-weight: 700;
+    transform: rotate(0deg) translateY(-50px); 
+    white-space: nowrap;
+  }
+  
+  @keyframes rotateCircle {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
