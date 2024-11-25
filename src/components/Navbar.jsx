@@ -19,7 +19,7 @@ function Navbar({ showCanvas }) {
       }
     }, [showCanvas]);
     
-    useEffect(() => {
+    useEffect(() => {  
       if (audioRef.current) {
         if (playAudio) {
           audioRef.current.play();
